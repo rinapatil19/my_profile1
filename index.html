@@ -1,65 +1,87 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my Profile</title>
-    <link rel="">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+      #resume{
+        color: orange;
+        font-weight: bolder;
+      }
+      .heading{
+          color: cadetblue;
+          font-style: italic;
+      }
+     .svg {
+          color: blueviolet;
+          font-weight:bolder ;
+      }
+
+     #a {
+        color: purple;
+        font-weight: bolder;
+        text-decoration: none;
+     }
+    </style>
   </head>
   <body>
     <!-- Header section -->
     <header>
-        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-           </svg>&nbsp;Name: Rina Patil  &nbsp;&nbsp;&nbsp;&nbsp; 
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-              </svg>&nbsp; Mobile: 8600 2550 66 &nbsp;&nbsp;&nbsp;&nbsp;
+        <p>
+          <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+           <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+           <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+           </svg>&nbsp; Name: Rina Patil &nbsp;&nbsp;&nbsp;&nbsp; 
+            
+            <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+            </svg>&nbsp; Mobile: 8600 2550 66 &nbsp;&nbsp;&nbsp;&nbsp;
       
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-              <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+            <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
             </svg> 
             
-           &nbsp;Email: rina31122003@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;
-           <a href="assets/resume.pdf" download> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
+            &nbsp;Email: rina31122003@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="assets/resume.pdf" download id="resume"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
             <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1m-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0"/>
-          </svg>
+            </svg>
          RESUME </a>
         </p>
     </header>
 
     <!-- Navigation section -->
     <nav>
-          <a href="#home">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="#techstack"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="#project">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="#education">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="">PERSONAL DETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="">OTHERS</a>
+          <a href="#home" id="a">HOME</a>&nbsp;&nbsp;&nbsp;
+          <a href="#techStack" id="a">TECHNOLOGYSTACK </a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#project" id="a">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#education" id="a">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#personaldetail" id="a">PERSONAL DETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#others" id="a">OTHERS</a>
     </nav>
 
     <!-- Main section -->
     <section>
       <!-- Home section -->
     <section id="home">
-        <h2>Professional Summary &nbsp; &nbsp; &nbsp;</h2>
+        <h2 class="heading">Professional Summary&nbsp; &nbsp; &nbsp;</h2>
         <ul>
-          <li>Having 1 years of experience in development Single page Web Applications using Angular 8,HTML5,CSS3,Bootstrap5,JavaScript,TypeScript</li>
-          <li>Experience on Working With version control system-GIT and Github</li>
-          <li>Experience Working with JIRA for user stories and bug tracking</li>
-          <li>String Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
-          <li>Working exposure in ID's like VS Code and Notepad++</li>
-          <li>Good Working experience under Agile methodologies environment</li>
-          <li>Experience in using Chrome Developer Tool for debugging and Troubleshooting the code</li>
-          <li>Knowledge of NodeJs</li>
-          <li>Ability to work with people at all levels in the program</li>
+          <li style="color: chocolate;">Having 1 years of experience in development Single page Web Applications using Angular 8,HTML5,CSS3,Bootstrap5,JavaScript,TypeScript</li>
+          <li style="color: chocolate;">Experience on Working With version control system-GIT and Github</li>
+          <li style="color: chocolate;">Experience Working with JIRA for user stories and bug tracking</li>
+          <li style="color: chocolate;">String Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
+          <li style="color: chocolate;">Working exposure in ID's like VS Code and Notepad++</li>
+          <li style="color: chocolate;">Good Working experience under Agile methodologies environment</li>
+          <li style="color: chocolate;">Experience in using Chrome Developer Tool for debugging and Troubleshooting the code</li>
+          <li style="color: chocolate;">Knowledge of NodeJs</li>
+          <li style="color: chocolate;">Ability to work with people at all levels in the program</li>
         </ul>
     </section>
     <hr>
       <!-- Technology stack section -->
       <section id="techStack">
-        <h2>Technology stack</h2>
+        <h2 class="heading">Technology stack</h2>
         <table border="1">
            <thead>
               <tr>
@@ -97,7 +119,7 @@
 
        <!-- Project Section -->
       <section id="project">
-        <h2>Project Details</h2>
+        <h2 class="heading">Project Details</h2>
         <hr>
             <p><b>Name:&nbsp;&nbsp;<u>Student Mangement</u></b></p>
             <b><u>Environment:</u></b>&nbsp;&nbsp;Angular8, TypeScript (ES6),HTML5,CSS,Bootstrap,GitHub,Dekstop Github,Agile and JIRA,IDE-VS COde
@@ -105,7 +127,7 @@
             <p><b>Project Description&nbsp;:</b>&nbsp;&nbsp;This project is mainly used for student mangment in colleges,where it help to mange student record like<br>
             student regisration,student update and to see all the list of academic activities like score card and attendance</p>
         <hr>
-             <h2>Roles and Responsibilities</h2>
+             <h2 class="heading">Roles and Responsibilities</h2>
         <p>
         <ul>
             <li> Designed and Implemented the user interface using HTML5 and CSS3</li><br>
@@ -123,7 +145,7 @@
 
       <!-- Education Section -->
       <section id="education">
-        <h2>My Education Details</h2>
+        <h2 class="heading">My Education Details</h2>
         <table border="1">
               <thead>
               <tr>
