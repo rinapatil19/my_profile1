@@ -4,105 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my Profile</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+      header{
+        padding: 20px;
+        background-color: rgb(216, 244, 245);
+      }
       #resume{
         color: orange;
         font-weight: bolder;
       }
       .heading{
-          background-color: cadetblue;
-          font-style: italic;
-          color: mediumvioletred
-      }
-     .svg {
-          color: blueviolet;
-          font-weight:bolder ;
-      }
-
-     #a {
-        color: purple;
-        font-weight: bolder;
-        text-decoration: none;
-     }
-    #experience {
-         font-weight: bolder;
-     }
-     .tech{
-      color:blue
-     }
-    #color {
-            background-color: blanchedalmond;
-     }
-    #Agile {
-          font-style: normal;
-          color: maroon;
-     }
-    #a1 {
-        background-color: cadetblue;
+        color: cadetblue;
         font-style: italic;
-        color:mediumvioletred
-     }
-    .a2 {
-        background-color: darkgray;
-        color: crimson;
-     }
+      }
+      .header-info{
+        margin-right: 40px;
+        margin-left: 10px;
+      }
+      #resume-text{
+        margin-left: 10px;
+      }
+      #a{
+         padding-right: 10px;
+      }
+      #speace{
+         padding right: 30px;
+      }
+      #li{
+         padding-left: 20px;
+      }
+     #table {
+         padding: 20px;
+         margin: 20px;
+      }
+      #th{
+        padding: 20px;
+      }
+      
+     #a1 {
+         padding-left: 10px;
+      }
     </style>
   </head>
   <body>
-    <!-- Header section -->
-    <header id="color">
-        <p>
-          <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-           <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-           <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-           </svg>&nbsp;<span id="Agile">Name: Rina Patil</span> &nbsp;&nbsp;&nbsp;&nbsp; 
-            
-            <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-            </svg>&nbsp;<span id="Agile"> Mobile: 8600 2550 66 </span>&nbsp;&nbsp;&nbsp;&nbsp;
-      
-            <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-            </svg> 
-            
-            &nbsp;<span id="Agile">Email: rina31122003@gmail.com</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="assets/resume.pdf" download id="resume"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down-fill" viewBox="0 0 16 16">
-            <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1m-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0"/>
-            </svg>
-         RESUME </a>
+   <!-- Header Section -->
+   <header>
+      <i class="fa fa-user fa-lg" aria-hidden="true"></i>
+      <span class="header-info">Rina Patil </span> 
+      <i class="fa fa-phone-square fa-lg" aria-hidden="true"></i>  
+      <span class="header-info">9373 2232 98  </span>  
+      <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+      <span class="header-info">rina3112203@gmail.com </span> 
+      <a href="assets/resume.pdf" download id="resume">  <i class="fa fa-download fa-lg" aria-hidden="true"></i> <span id="resume-text">RESUME</span>  </a>        
+</header>
         </p>
     </header>
 
     <!-- Navigation section -->
     <nav>
-          <a href="#home" id="a">HOME</a>&nbsp;&nbsp;&nbsp;
-          <a href="#techStack" id="a">TECHNOLOGYSTACK </a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="#project" id="a">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="#education" id="a">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="#personaldetail" id="a">PERSONAL DETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#home" id="a">HOME</a>
+          <a href="#techStack" id="a">TECHNOLOGYSTACK </a>
+          <a href="#project" id="a">PROJECTS</a>
+          <a href="#education" id="a">EDUCATION</a>
+          <a href="#personaldetail" id="a">PERSONAL DETAILS</a>
           <a href="#others" id="a">OTHERS</a>
     </nav>
     <hr>
 
     <!-- Main section -->
     <section>
-      <h2 id="a1">Career Objectives</h2>
+      <h2 class="heading">Career Objectives</h2>
       <p>TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH</p>
     </section>
       <!-- Home section -->
     <section id="home">
-        <h2 class="heading">Professional Summary&nbsp; &nbsp; &nbsp;</h2>
-        <ul>
-          <li>Having 1 years of experience in development Single page Web Applications using<span class="tech"> Angular 8,</span>HTML5,CSS3,Bootstrap5,JavaScript,TypeScript</li>
-          <li class="a2">Experience on Working With version control system-GIT and Github</li>
-          <li>Experience Working with JIRA for user stories and bug tracking</li>
-          <li>String Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
-          <li>Working exposure in ID's like VS Code and Notepad++</li>
-          <li>Good Working experience under Agile methodologies environment</li>
-          <li>Experience in using Chrome Developer Tool for debugging and Troubleshooting the code</li>
-          <li>Knowledge of NodeJs</li>
-          <li>Ability to work with people at all levels in the program</li>
+        <h2 class="heading">Professional Summary</h2>
+        <ul >
+          <li id="li">Having 1 years of experience in development Single page Web Applications using<span class="tech"> Angular 8,</span>HTML5,CSS3,Bootstrap5,JavaScript,TypeScript</li>
+          <li id="li" >Experience on Working With version control system-GIT and Github</li>
+          <li id="li">Experience Working with JIRA for user stories and bug tracking</li>
+          <li id="li">String Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
+          <li id="li">Working exposure in ID's like VS Code and Notepad++</li>
+          <li id="li">Good Working experience under Agile methodologies environment</li>
+          <li id="li">Experience in using Chrome Developer Tool for debugging and Troubleshooting the code</li>
+          <li id="li">Knowledge of NodeJs</li>
+          <li id="li">Ability to work with people at all levels in the program</li>
         </ul>
     </section>
     <hr>
@@ -112,31 +100,31 @@
         <table border="1">
            <thead>
               <tr>
-                 <th>Sr.No</th>
-                 <th>Technology Stack</th>
-                 <th>Rating</th>
+                 <th id="th">Sr.No</th>
+                 <th id="th">Technology Stack</th>
+                 <th id="th">Rating</th>
               </tr>
            </thead>
            <tbody>
                <tr>
-                  <th>1</th>
-                  <th>HTML</th>
-                  <th>4</th>
+                  <th id="th">1</th>
+                  <th id="th">HTML</th>
+                  <th id="th">4</th>
                </tr>
                <tr>
-                  <th>2</th>
-                  <th>CSS</th>
-                  <th>4</th>
+                  <th id="th">2</th>
+                  <th id="th">CSS</th>
+                  <th id="th">4</th>
                </tr>
                <tr>
-                  <th>3</th>
-                  <th>JavaScript</th>
-                  <th>4</th>
+                  <th id="th">3</th>
+                  <th id="th">JavaScript</th>
+                  <th id="th">4</th>
                </tr>
                <tr>
-                  <th>4</th>
-                  <th>Angular</th>
-                  <th>3</th>
+                  <th id="th">4</th>
+                  <th id="th">Angular</th>
+                  <th id="th">3</th>
                </tr>
            </tbody>
         </table>
@@ -148,11 +136,11 @@
       <section id="project">
         <h2 class="heading">Project Details</h2>
         <hr>
-            <p><b>Name:&nbsp;&nbsp;<u>Student Mangement</u></b></p>
-            <b><u>Environment:</u></b>&nbsp;&nbsp;Angular8, TypeScript (ES6),HTML5,CSS,Bootstrap,GitHub,Dekstop Github,Agile and JIRA,IDE-VS COde
-            <p><strong>Team Size:06</strong><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration:</strong>2021-1<sup>st</sup>-july till<u>&nbsp;present</u></p>
-            <p><b>Project Description&nbsp;:</b>&nbsp;&nbsp;This project is mainly used for student mangment in colleges,where it help to mange student record like<br>
-            student regisration,student update and to see all the list of academic activities like score card and attendance</p>
+            <p><b>Name:<u id="a1">Student Mangement</u></b></p>
+            <p><u><b>Environment:</u></b><span id="a1">Angular8, TypeScript (ES6),HTML5,CSS,Bootstrap,GitHub,Dekstop Github,Agile and JIRA,IDE-VS COde</span></p>
+            <p><strong>Team Size: 06</strong><strong>Duration:</strong><span id="a1">2021-1<sup>st</sup>-july till<u>present</span></u></p>
+            <p ><b>Project Description:</b><span id="a1">This project is mainly used for student mangment in colleges,where it help to mange student record like</p><br>
+            student regisration,student update and to see all the list of academic activities like score card and attendance</span></p>
         <hr>
              <h2 class="heading">Roles and Responsibilities</h2>
         <p>
@@ -175,7 +163,7 @@
         <h2 class="heading">My Education Details</h2>
         <table border="1">
               <thead>
-              <tr>
+              <tr id="table">
                  <th>Qaulification</th>
                  <th>School/Collage</th>
                  <th>Board/University</th>
