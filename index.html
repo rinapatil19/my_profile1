@@ -6,10 +6,16 @@
     <title>my Profile</title>
     <!-- CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- google font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
     <style>
+     
       header{
         padding: 20px;
         background-color: rgb(216, 244, 245);
+        font-family: "Roboto", sans-serif;
       }
       #resume{
         color: orange;
@@ -18,6 +24,7 @@
       .heading{
         color: cadetblue;
         font-style: italic;
+        font-family: "Roboto", sans-serif;
       }
       .header-info{
         margin-right: 40px;
@@ -46,6 +53,24 @@
      #a1 {
          padding-left: 10px;
       }
+      table, tr, th, td {
+        border: 2px solid rgb(216, 186, 131);
+        border-collapse: collapse;
+      }
+      td,th{
+
+        padding: 10px;
+      }
+      #texttable{
+          width: 50;
+      }
+      
+     #listsummary {
+      font-family: "Roboto", sans-serif;
+      }
+     #a1 {
+      font-family: "Roboto", sans-serif;
+      }
     </style>
   </head>
   <body>
@@ -63,7 +88,7 @@
     </header>
 
     <!-- Navigation section -->
-    <nav>
+    <nav id="a1">
           <a href="#home" id="a">HOME</a>
           <a href="#techStack" id="a">TECHNOLOGYSTACK </a>
           <a href="#project" id="a">PROJECTS</a>
@@ -81,7 +106,7 @@
       <!-- Home section -->
     <section id="home">
         <h2 class="heading">Professional Summary</h2>
-        <ul >
+        <ul id="listsummary">
           <li id="li">Having 1 years of experience in development Single page Web Applications using<span class="tech"> Angular 8,</span>HTML5,CSS3,Bootstrap5,JavaScript,TypeScript</li>
           <li id="li" >Experience on Working With version control system-GIT and Github</li>
           <li id="li">Experience Working with JIRA for user stories and bug tracking</li>
@@ -97,7 +122,7 @@
     <!-- Technology stack section -->
       <section id="techStack">
         <h2 class="heading">Technology stack</h2>
-        <table border="1">
+        <table id="texttable">
            <thead>
               <tr>
                  <th id="th">Sr.No</th>
@@ -107,7 +132,7 @@
            </thead>
            <tbody>
                <tr>
-                  <th id="th">1</th>
+                  <td id="th">1</td>
                   <th id="th">HTML</th>
                   <th id="th">4</th>
                </tr>
@@ -161,7 +186,7 @@
       <!-- Education Section -->
       <section id="education">
         <h2 class="heading">My Education Details</h2>
-        <table border="1">
+        <table>
               <thead>
               <tr id="table">
                  <th>Qaulification</th>
@@ -217,6 +242,8 @@
           <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
           </svg>
       </footer>
+      <!-- copyr wright section -->
+      
     
   </body>
 </html>
