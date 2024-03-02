@@ -71,6 +71,19 @@
      #a1 {
       font-family: "Roboto", sans-serif;
       }
+      #listSummary li{
+        list-style-type: none;
+      }
+      #listSummary li::marker{
+        content: "✍️";
+      }
+     .roles {
+     list-style-type: lower-alpha;
+      }
+      #projectDesc::selection{
+        background-color:cadetblue;
+      }
+      
     </style>
   </head>
   <body>
@@ -108,7 +121,7 @@
         <h2 class="heading">Professional Summary</h2>
         <ul id="listsummary">
           <li id="li">Having 1 years of experience in development Single page Web Applications using<span class="tech"> Angular 8,</span>HTML5,CSS3,Bootstrap5,JavaScript,TypeScript</li>
-          <li id="li" >Experience on Working With version control system-GIT and Github</li>
+          <li id="li">Experience on Working With version control system-GIT and Github</li>
           <li id="li">Experience Working with JIRA for user stories and bug tracking</li>
           <li id="li">String Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
           <li id="li">Working exposure in ID's like VS Code and Notepad++</li>
@@ -164,12 +177,12 @@
             <p><b>Name:<u id="a1">Student Mangement</u></b></p>
             <p><u><b>Environment:</u></b><span id="a1">Angular8, TypeScript (ES6),HTML5,CSS,Bootstrap,GitHub,Dekstop Github,Agile and JIRA,IDE-VS COde</span></p>
             <p><strong>Team Size: 06</strong><strong>Duration:</strong><span id="a1">2021-1<sup>st</sup>-july till<u>present</span></u></p>
-            <p ><b>Project Description:</b><span id="a1">This project is mainly used for student mangment in colleges,where it help to mange student record like</p><br>
+            <p id="projectDesc"><b>Project Description:<span id="a1">This project is mainly used for student mangment in colleges,where it help to mange student record like</p>
             student regisration,student update and to see all the list of academic activities like score card and attendance</span></p>
         <hr>
              <h2 class="heading">Roles and Responsibilities</h2>
         <p>
-        <ul>
+        <ol class="roles">
             <li> Designed and Implemented the user interface using HTML5 and CSS3</li><br>
             <li> Work closely with backend developers for code integration</li><br>
             <li>Identifying and troubleshooting issues in front end codebase</li><br>
@@ -177,7 +190,7 @@
             <li>Used JIRA for bug tracking</li><br>
             <li>Implemented project using Agile SCRUM methodology, involved in daily stand up calls ,sprint retrospective mettings</li><br>
             <li>Involved in fixing technical issues</li>
-        </ul>
+        </ol>
         </p>
 
       </section>
